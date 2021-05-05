@@ -1,0 +1,11 @@
+1. Investigate the Econ API https://documenter.getpostman.com/view/9197254/SzRuZCCj?version=latest
+packages: request, httpx
+
+2. Find voting/crime projects on github
+language:python pushed:>2021-01-01 stars:>1 voting in:name,description
+
+3. look over tidycensus: https://walker-data.com/tidycensus/articles/basic-usage.html
+
+4. download R/RStudio, also RStudio server
+
+5. Install AWS CLI on computer
