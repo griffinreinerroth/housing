@@ -5,11 +5,11 @@ import io
 
 url = 'https://files.zillowstatic.com/research/public_v2/zhvi/Neighborhood_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_mon.csv'
 
-# pandas read csv
-# data = pd.read_csv(url)
+# Download Method 1: pandas read csv
+data = pd.read_csv(url)
 
 
-# requests download csv
+# Download Method 2: requests download csv
 
 # what does requests.Session() do?
 with requests.Session() as s:
@@ -21,12 +21,4 @@ with requests.Session() as s:
     my_list = list(cr)
     for row in my_list:
         print(row)
-
-# print(r.status_code)
-
-
-
-
-# def download_csv(url):
-#     r = requests.get(url)
 
